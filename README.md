@@ -1,6 +1,6 @@
-# SwiftUI making a phone call
+# SwiftUI Making a Phone Call with CallKit
 
-This is a SwiftUI project that uses the [Client SDK](https://developer.vonage.com/vonage-client-sdk/overview) to make calls to a specified phone number.
+This is a SwiftUI project that uses the [Client SDK](https://developer.vonage.com/vonage-client-sdk/overview) to make calls to a specified phone number using `CallKit`.
 
 ## Welcome to Vonage
 
