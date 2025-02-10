@@ -112,6 +112,7 @@
 				12ED5787254C61CB001C9238 /* Frameworks */,
 				12ED5788254C61CB001C9238 /* Resources */,
 				DE6025F38C88B434B9C35FD9 /* [CP] Embed Pods Frameworks */,
+				5B72F9C95ACEA451AD371236 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,6 +168,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5B72F9C95ACEA451AD371236 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUICall/Pods-SwiftUICall-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUICall/Pods-SwiftUICall-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUICall/Pods-SwiftUICall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		CF8BAAD30EF47E86FC68ED45 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
